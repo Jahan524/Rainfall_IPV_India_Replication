@@ -2,7 +2,7 @@
 Replication code for "Rainfall Variation and Intimate Partner Violence in India: Stress and Backlash Mechanisms" (RSOS-260304)
 # Rainfall Variation and IPV in India: Replication Repository
 
-This repository contains the statistical code (Stata/R) required to replicate the findings of the study: **"Rainfall Variation and Intimate Partner Violence in India: Stress and Backlash Mechanisms."**
+This repository contains the statistical code (Stata/Python) required to replicate the findings of the study: **"Rainfall Variation and Intimate Partner Violence in India: Stress and Backlash Mechanisms."**
 
 ## 📊 Study Overview
 This research investigates the intersection of climate shocks (rainfall variation) and social vulnerability (IPV) in India using Generalized Structural Equation Modeling (GSEM).
