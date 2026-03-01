@@ -114,4 +114,5 @@ gsem ///
  nlcom (total: ///
    _b[anyviolence:rainvar] + _b[pagro:rainvar] * _b[anyviolence:pagro])
 
+
    total:  _b[anyviolence:rainvar] + _b[pagro:rainvar] * _b[anyviolence:pagro]
