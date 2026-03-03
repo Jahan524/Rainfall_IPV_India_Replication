@@ -1,5 +1,5 @@
 # Rainfall_IPV_India_Replication
-Replication code for "Rainfall Variation and Intimate Partner Violence in India: Stress and Backlash Mechanisms" (RSOS-260304)
+Replication code for "Rainfall Variation and Intimate Partner Violence in India: Stress and Backlash Mechanisms" 
 # Rainfall Variation and IPV in India: Replication Repository
 
 This repository contains the statistical code (Stata/Python) required to replicate the findings of the study: **"Rainfall Variation and Intimate Partner Violence in India: Stress and Backlash Mechanisms."**
@@ -9,12 +9,12 @@ This research investigates the intersection of climate shocks (rainfall variatio
 
 ## 📁 Repository Contents
 - `/scripts`: Contains `.do` files for data cleaning, variable construction, and GSEM/GLMM analysis.
-- `/docs`: Detailed description of variables used from NFHS-5 and CRU TS4.07.
+- `/docs`: Detailed description of variables used from NFHS-5 and CRU TS4.05.
 
 ## 🔓 Data Access
 As per the terms of the data providers, raw datasets are not hosted in this repository. Researchers can access them via:
 1. **NFHS-5 (2019-21):** [The DHS Program](https://dhsprogram.com/data/available-datasets.cfm) (Registration required).
-2. **Rainfall Data (CRU TS4.07):**[https://crudata.uea.ac.uk/cru/data/hrg/] or [https://geo.aiddata.org/query/#!/status/629e24d1809e383f4a3c3722] (Public access).
+2. **Rainfall Data (CRU TS4.05):**[https://crudata.uea.ac.uk/cru/data/hrg/] or [https://geo.aiddata.org/query/#!/status/629e24d1809e383f4a3c3722] (Public access).
 
 ## 🚀 Usage
 1. Download the raw data from the links above.
