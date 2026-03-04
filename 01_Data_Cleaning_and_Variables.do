@@ -96,6 +96,9 @@ cap gen dwt = d005/1000000
 * Occupation (Formal/Informal sector)
 * Financial Inclusion (Bank Account)
 * Wealth Status
+* Year of Interview
+* Month of Interview
+* District
 
 //Rename for convenience
 
@@ -104,6 +107,14 @@ rename v106 education
 rename v024 state
 rename v025 residence
 
+** RAINFALL ANOMALY CALCULATION
+* Rainfall Variation
+* Standardized Rainfall Variation
+* Precipitation Zone
+
+** MERGING DATASETS (NFHS 5 & CRUTS 4.5)
+** KEEP THE VARIABLES
+** CLEANSE THE MISSING VALUES
 
 
 
