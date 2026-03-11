@@ -98,7 +98,13 @@ cap gen dwt = d005/1000000
 		
 * Education
 * Partner's Education
-* Occupation (Formal/Informal sector)
+* Partner's Occupation (Formal/Informal sector)
+rename v... partneroccup
+gen informal=.
+replace informal=1 if partneroccup==6 | partneroccup==7| partneroccup==9
+replace informal=0 if informal==.
+label var informal "Husband's occupation (formal/informal)"
+
 * Financial Inclusion (Bank Account)
 * Wealth Status
 * Year of Interview
@@ -208,6 +214,7 @@ gen wei_index = (wei_pca1 - wei_min)/(wei_max - wei_min)
 ** MERGING DATASETS (NFHS 5 & CRUTS 4.5)
 ** KEEP THE VARIABLES
 ** CLEANSE THE MISSING VALUES
+
 
 
 
